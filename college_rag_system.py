@@ -50,7 +50,7 @@ class Config:
     
     def __init__(self):
         # API Keys
-        self.GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "AIzaSyApLv1N5SWMetiowWfTSFTjrGVZWwmPRPI")
+        self.GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "YOUR_API_KEY")
         
         # Model settings
         self.EMBEDDING_MODEL = "all-MiniLM-L6-v2"  # Fast and efficient
@@ -68,7 +68,7 @@ class Config:
         
         # File paths
         self.DEFAULT_HANDBOOK_PATH = os.path.normpath(
-            "C:/Users/ishaa/Desktop/Gen AI/Individual Assignment/Student Handbook (Master's).pdf"
+            "sample_handbook.pdf"
         )
         
         # Supported file formats
