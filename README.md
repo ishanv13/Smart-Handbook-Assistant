@@ -1,4 +1,4 @@
-# College Handbook RAG System
+# 🎓College Handbook RAG System
 
 An advanced Retrieval-Augmented Generation (RAG) system designed to answer questions about college handbook policies and procedures. This system uses a combination of semantic and keyword-based search to provide accurate and contextually relevant answers to student queries.
 
